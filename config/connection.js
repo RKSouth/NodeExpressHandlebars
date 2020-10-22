@@ -6,19 +6,19 @@ if (process.env.JAWSDB_URL) {connection = mysql.createConnection(process.env.JAW
 } else {
     connection = msql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: 'root',
-        database: 'nodeEH_db'
+        user: '	y4ajlfor13jj2tcg',
+        password: 'erh1xm0spit918ve',
+        database: 'burger_db'
     })
 }
 
-var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "password",
-  database: "cat_db"
-});
+// var connection = mysql.createConnection({
+//   host: "localhost",
+//   port: 3306,
+//   user: "root",
+//   password: "password",
+//   database: "cat_db"
+// });
 
 // Make connection.
 connection.connect(function(err) {
