@@ -83,6 +83,8 @@ Rachael Kelm-Southworth
 
 * [github] (https://github.com/RKSouth/)
 
+* [portfolio] (https://rksouth.github.io/responsive_portfolio/)
+
  ## Credits
 
 I would like to thank Kerwin, Manuel, Roger, Jerome and all my classmates for helping me understand this subject matter and anyone that contributed to make the base code.
