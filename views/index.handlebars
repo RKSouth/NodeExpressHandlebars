@@ -3,7 +3,7 @@
 <main class="container col-sm-10 col-md-8 col-lg-8>">
   <div class="card-row">
     <article class="card-body">
-      <h2 class="card-title">Burger I've had</h2>
+      <h2 class="card-title">Burger To Eat</h2>
       <section class="row m-1">
         <figure class="col-md-6 p-3">
           <ul>
@@ -14,11 +14,11 @@
             {{/each}}
           </ul>
         </figure>
-        </section>
+        {{!-- </section> --}}
 
 
-        <h2 class="card-title">burgers that are devoured!</h2>
- <section class="row m-1">
+        <h2 class="card-title">Burgers That I have Eaten!</h2>
+ {{!-- <section class="row m-1"> --}}
         <figure class="col-md-6 p-3">
         <ul>
           {{#each burgers}}
@@ -31,6 +31,7 @@
         </section>
 
         <h2>Add a burger</h2>
+        <section class="row m-1">
         <form class="create-form">
 
           <div class="form-group">
@@ -46,7 +47,7 @@
 
           <button type="submit">Add burger</button>
         </form>
-
+      </section>
     </article>
   </div>
 </main>
