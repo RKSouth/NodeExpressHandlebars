@@ -1,31 +1,45 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #f3f3f3;
-    color: rgb(46, 46, 46);
+    font-weight: bold;
+    background: rgb(46, 46, 46);
     width: fit-content;
-  }
+    }
   
-  .label {
+.label {
     font-weight: bold;
   }
   
-  .create-update-form {
+.create-update-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
+    /* background: aqua; */
   }
   
-  .form-group {
+.form-group {
     margin-bottom: 5px;
   }
-  body {
+body {
     background-image: url("/assets/pexels-magda-ehlers-960137.jpg");
     /* color: rgb(245, 229, 206); */
     background-size: contain;
     background-size: cover;
-    color: whitesmoke;
+    /* color: whitesmoke; */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
   
    }
+
+
+figure {
+  background-color: rgb(46, 51, 56);
+}
+.change-devoured {
+  color: red;
+  
+}
+
+h2,h1,label, input {
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
