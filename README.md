@@ -16,13 +16,14 @@
 * [License](#License)
 
 ## Technologies_Used
-* Javascript (100%) 
+* Javascript 
 * HTML
 * CSS
 * handlebars
 * express.js
 * [node.js](https://www.npmjs.com/)
 * [mysql](https://www.mysqltutorial.org/)
+* [heroku](https://dashboard.heroku.com/apps)
 
 <!-- ## Getting_Started
 
@@ -43,18 +44,18 @@ To move throughout the menues use the arrow keys on your terminal and be sure to
 
 ### __1. A mysql database__
 
-In order to store and read files using a database manager I had to integrate mysql code into my javascript.  I also needed to build an actual database to handle the data I was passing through (because json files aren't always so efficient.) 
+In order to store and read files using a database manager I had to integrate mysql code into my javascript.  I also needed to build an actual database to handle the data I was passing through (because json files aren't always so efficient.) Storing things in a database makes the data easier to manage, read and update. And is a great way to manage a lot of data
 
 ![mysql-database](Assets/codesnippet01.png)
 
-In order to call the database I used a series of calls in various places that corresponded to the peices of code I wanted to use, then I would ask the user what they wanted to do with it, it seems a little counterintuitive but we needed the data to help make an informed choice.
 
-![database-calls](Assets/codesnippet02.png)
 ### __2. The ability to move burgers__
 
-What is the point of a database if you cannot edit it efficiently? I feel like the I used this exemplafied the CRUD method- create the data, read the data (to the user), give the user the option to _update_ and then _delete_.
 
-### __2. The ability to add burgers__
+
+### __3. The ability to add burgers__
+
+### __4. A deployed site on heroku__
 
 ### __5. Other__
 
