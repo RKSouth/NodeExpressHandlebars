@@ -23,7 +23,9 @@ li {
     background-image: url("/assets/pexels-magda-ehlers-960137.jpg");
     /* color: rgb(245, 229, 206); */
     background-size: contain;
+    background-size: cover;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   
    }
