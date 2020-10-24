@@ -1,8 +1,15 @@
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 <h1>Eat-Da-Burger!</h1>
 
-
+<main class="container col-sm-10 col-md-8 col-lg-8>">
+  <div class="card-row">
+    <article class="card-body">
       <h2 class="card-title">Burger I've had</h2>
- 
+      <section class="row m-1">
+        <figure class="col-md-6 p-3">
           <ul>
             {{#each burgers}}
             {{#unless devoured}}
@@ -11,12 +18,12 @@
             {{/each}}
           </ul>
         </figure>
-        </section>
+      
 
 
         <h2 class="card-title">burgers that are devoured!</h2>
 
-    
+        <figure class="col-md-6 p-3"></figure>
         <ul>
           {{#each burgers}}
           {{#if devoured}}
@@ -25,8 +32,8 @@
           {{/each}}
         </ul>
       </figure>
-        </section>
-
+     
+  <figure class="col-md-6 p-3">
         <h2>Add a burger</h2>
         <form class="create-form">
 
@@ -43,5 +50,8 @@
 
           <button type="submit">Add burger</button>
         </form>
-
-  
+        </figure>
+     </section>
+    </article>
+  </div>
+</main>
