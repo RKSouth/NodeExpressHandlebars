@@ -23,6 +23,7 @@
 * [node.js](https://www.npmjs.com/)
 * [mysql](https://www.mysqltutorial.org/)
 * [heroku](https://dashboard.heroku.com/apps)
+* JAWSDB (An addon for heroku)
 
 <!-- ## Getting_Started
 
@@ -52,7 +53,7 @@ In order to store and read files using a database manager I had to integrate mys
 
 The main point of this project is to use the Model View Control method in order to better update and manage data through a web application, in other words a fully functional website! Being able to alter the mysql (or any database) is essential to this process. It all starts with the database, which interacts with the model, which interacts with the controller, which uses the routes to display or view the behaviors. So it's hard to show snippets of code without showing the entire code because variables/objects are being passed through many steps to make sure they are dynamic and controlled. 
 
-Basically though, the burger needs to be updated in those 4 different places (database, model, controller and view) and passed through each step to get back and forth from the database. Doing it this way, assures us that everything is working, it provides quality data that displays acurately each and every time. 
+Basically though, the burger needs to be updated in those 4 different places (database, model, controller and view) and passed through each step to get back and forth from the database. Doing it this way, assures us that everything is working, it provides quality data that displays accurately each and every time. 
 
 ### __3. The ability to add burgers__
 
@@ -89,11 +90,11 @@ I think I got it pretty good, but I know it could be better for this assignment,
 ## Author 
 Rachael Kelm-Southworth
 
-* [linkedin] (https://www.linkedin.com/in/rachael-kelm-southworth-87a3831b3) 
+* [linkedin](https://www.linkedin.com/in/rachael-kelm-southworth-87a3831b3) 
 
-* [github] (https://github.com/RKSouth/)
+* [github](https://github.com/RKSouth/)
 
-* [portfolio] (https://rksouth.github.io/responsive_portfolio/)
+* [portfolio](https://rksouth.github.io/responsive_portfolio/)
 
  ## Credits
 
