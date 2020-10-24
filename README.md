@@ -7,7 +7,6 @@
 
 ## Table of Contents
 * [Technologies Used](#Technologies_Used)
-<!-- * [Getting Started](#Getting_Started) -->
 * [Deployed Site](#Deployed)
 * [Features](#Features)
 * [Usage](#Usage)
@@ -16,7 +15,7 @@
 * [License](#License)
 
 ## Technologies_Used
-* Javascript 
+* JavaScript 
 * HTML
 * CSS
 * handlebars
@@ -66,7 +65,7 @@ As you can see in the image above, the function is calling slightly different th
 ### __4. A deployed site on heroku__
 
 One of the biggest challenges faced in the project was deploying to heroku. Heroku was chosen because it supports server side as well as front end developed projects. Deploying heroku without mysql is a multi step process and takes some doing to get right. Deploying with mysql was even more complicated. So, in order to make sure I had the basic steps worked out well enough to deploy with mysql I created a list of instructions to share with my faculty and double check there wasn't anything I was doing wrong. 
-![heroku-readme](https://github.com/RKSouth/heruku-guide)
+[heroku-readme](https://github.com/RKSouth/heruku-guide)
 
 It's not complete but it did help me get through the project and maybe, it will help with further work later.
 
