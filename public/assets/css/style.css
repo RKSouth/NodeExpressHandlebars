@@ -34,15 +34,19 @@ body {
 
 figure {
   background-color: rgb(46, 51, 56);
-  min-width: 30vw;
+  min-width: 25vw;
   color: whitesmoke;
 }
 .change-devoured {
-  color: red;
+  color: rgb(121, 0, 0);
   
 }
 
 h2,h1,label, input {
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: rgb(46, 51, 56 );
 }
